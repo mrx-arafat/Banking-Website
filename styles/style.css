@@ -68,7 +68,10 @@ nav {
 
   color: #ffffff;
 }
-
+/*  header */
+.header-section {
+  display: flex;
+}
 /* header Left */
 .left {
   display: flex;
@@ -160,4 +163,36 @@ nav {
 }
 .yt {
   color: red;
+}
+
+/* right header */
+.right {
+  position: relative;
+}
+.btn-c {
+  display: inline-block;
+  padding: 15px 25px;
+  background: #ffffff;
+  box-shadow: 4px 4px 58px rgba(0, 0, 0, 0.12);
+  border-radius: 55px;
+}
+.btn-c a {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #343434;
+}
+.btn-c i {
+  color: #ed017f;
+}
+.car-loan {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+.home-loan {
+  position: absolute;
+  top: 140px;
+  right: 80px;
 }
