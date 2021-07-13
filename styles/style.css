@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* nav-menu bar */
+nav {
+  display: flex;
+  margin: 27px 135px;
+}
+
+.logo {
+  width: 109px;
+  height: 53px;
+  margin-right: 70px;
+}
+
+.nav-menu {
+  margin-right: 130px;
+}
+.nav-menu ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.nav-menu a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #010101;
+
+  margin: 0px 26px;
+  text-decoration: none;
+}
+
+.search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 55px;
+  font-size: 20px;
+  color: #ed017f;
+}
+.btn-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+
+  background: #ed017f;
+  border-radius: 4px;
+}
+.btn-a a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+
+/* header Left */
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.heading {
+  margin-top: 150px;
+  margin-left: 135px;
+  margin-bottom: 25px;
+  font-weight: 900;
+  font-size: 63px;
+  line-height: 68px;
+
+  color: #010101;
+}
+.paragraph-text {
+  margin-left: 135px;
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #676767;
+}
+.header-btn {
+  margin-left: 135px;
+  margin-bottom: 25px;
+  display: flex;
+}
+.btn-b {
+  margin-left: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+
+  background: white;
+  border: 2px solid #ed017f;
+  border-radius: 4px;
+}
+.btn-b a {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: none;
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ed017f;
+}
+.contact-info {
+  margin-left: 135px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+/* .phone-number{
+ 
+} */
+.contact-info {
+  margin-top: 80px;
+}
+.number {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.social-icon i {
+  cursor: pointer;
+  margin-left: 15px;
+  font-weight: 800;
+  font-size: 17px;
+}
+.stick {
+  color: lightgray;
+}
+.phone,
+.insta {
+  color: #ed017f;
+}
+.fb,
+.li {
+  color: #4b7fcd;
+}
+.yt {
+  color: red;
+}
