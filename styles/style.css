@@ -256,3 +256,74 @@ nav {
   line-height: 24px;
   color: #999999;
 }
+
+.sponsor-logo {
+  height: 550px;
+  background-color: #ed017f;
+}
+
+/* sponsor */
+
+.three {
+  background-color: rgba(252, 224, 239, 0.2);
+}
+.sponsor-info h1 {
+  padding-top: 100px;
+  font-weight: 550;
+  text-align: center;
+  font-size: 30px;
+  line-height: 23px;
+
+  letter-spacing: 2px;
+
+  color: #343434;
+}
+
+.logo-container {
+  padding: 90px 130px;
+  display: flex;
+  justify-content: space-around;
+}
+/* Section FOUR */
+.four {
+  display: flex;
+}
+
+.four.left {
+  width: 50%;
+}
+
+.left img {
+  width: 100%;
+  height: 80%;
+}
+
+.four .right {
+  display: flex;
+  width: 50%;
+  padding: 100px 50px;
+}
+.right h1 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #343434;
+}
+.right p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 29px;
+
+  color: #676767;
+}
+.right a {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: none;
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ed017f;
+}
