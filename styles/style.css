@@ -196,3 +196,44 @@ nav {
   top: 140px;
   right: 80px;
 }
+
+/* SECTION ONE*/
+
+.one {
+  margin-top: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.one h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 43px;
+  text-align: center;
+  color: #343434;
+}
+
+.one p {
+  margin: 30px 400px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #999999;
+}
+
+/* SECTION TWO  */
+.card-container {
+  margin: 100px 160px;
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+  grid-row-gap: 30px;
+
+  justify-items: center;
+}
+.card {
+  height: 250px;
+  width: 230px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.205);
+}
