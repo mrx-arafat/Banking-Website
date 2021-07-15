@@ -226,7 +226,7 @@ nav {
 .card-container {
   margin: 100px 160px;
   display: grid;
-  grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 30px;
 
   justify-items: center;
@@ -236,4 +236,23 @@ nav {
   width: 230px;
   padding: 20px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.205);
+}
+
+.card i {
+  font-size: 25px;
+  color: #ed017f;
+  font-weight: 700;
+}
+
+.card h1 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 22px;
+  color: #363940;
+}
+.card p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #999999;
 }
