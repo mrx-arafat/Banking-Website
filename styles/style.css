@@ -227,7 +227,7 @@ nav {
   margin: 100px 160px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 30px;
+  grid-row-gap: 50px;
 
   justify-items: center;
 }
@@ -285,17 +285,20 @@ nav {
   justify-content: space-around;
 }
 /* Section FOUR */
-.four {
+
+.container-four {
+  margin-top: 100px;
   display: flex;
 }
-
-.four.left {
+.four .left {
+  display: flex;
+  flex-direction: column;
   width: 50%;
+  justify-content: center;
 }
-
 .left img {
   width: 100%;
-  height: 80%;
+  height: 70%;
 }
 
 .four .right {
@@ -333,8 +336,12 @@ nav {
   margin: 60px 100px;
 }
 /* SECTION FIVE */
-
+.five {
+  margin: 100px 0px;
+  background-color: rgba(252, 224, 239, 0.2);
+}
 .top-text {
+  padding-top: 60px;
   text-align: center;
 }
 .top-text h1 {
